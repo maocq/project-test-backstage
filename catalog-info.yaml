@@ -1,10 +1,18 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: project-test-backstage
-  annotations:
-    github.com/project-slug: maocq/project-test-backstage
+  name: petstore
+  # This is an extra long description
+  description: The Petstore is an example API used to show features of the OpenAPI spec.
+  links:
+    - url: https://github.com/swagger-api/swagger-petstore
+      title: GitHub Repo
+      icon: github
 spec:
-  type: other
-  lifecycle: unknown
-  owner: maocq
+  type: service
+  lifecycle: experimental
+  owner: team-c
+  providesApis:
+    - petstore
+    - streetlights
+    - hello-world
