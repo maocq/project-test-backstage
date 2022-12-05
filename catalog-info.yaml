@@ -9,7 +9,8 @@ metadata:
       icon: github
   annotations:
     github.com/project-slug: maocq/hello-github-actions
-    backstage.io/techdocs-ref: dir:.
+    #backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: url:https://github.com/RoadieHQ/sample-service/tree/main
 spec:
   type: service
   owner: team-c
