@@ -9,6 +9,7 @@ metadata:
       icon: github
   annotations:
     github.com/project-slug: maocq/hello-github-actions
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   owner: team-c
