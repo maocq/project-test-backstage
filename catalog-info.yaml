@@ -1,18 +1,17 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: petstore
-  # This is an extra long description
-  description: The Petstore is an example API used to show features of the OpenAPI spec.
+  name: "ProjectSomething"
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id quam ac est dictum convallis ac non leo."
   links:
-    - url: https://github.com/swagger-api/swagger-petstore
-      title: GitHub Repo
+    - url: https://keepachangelog.com/en/1.0.0/
+      title: Changelog
       icon: github
+  annotations:
+    github.com/project-slug: maocq/hello-github-actions
 spec:
   type: service
+  owner: user:guest
   lifecycle: experimental
-  owner: team-c
   providesApis:
-    - petstore
-    - streetlights
-    - Test1
+    - ApiTestSomething
