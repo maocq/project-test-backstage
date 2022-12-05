@@ -11,7 +11,7 @@ metadata:
     github.com/project-slug: maocq/hello-github-actions
 spec:
   type: service
-  owner: user:guest
+  owner: team-c
   lifecycle: experimental
   providesApis:
     - ApiTestSomething
