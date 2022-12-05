@@ -15,4 +15,4 @@ spec:
   providesApis:
     - petstore
     - streetlights
-    - hello-world
+    - Test1
